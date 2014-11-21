@@ -1,0 +1,253 @@
+body {
+	margin:0px;
+	text-align:center;
+}
+
+a img {
+	border: none;
+}
+
+.contentheading_akc a:link, .contentheading_akc a:visited, .contentheading_akc a:hover {
+	color:#7bb216;
+	font-size:12px;
+}
+
+#toptablemenu a:link, #toptablemenu a:visited, #toptablemenu a:hover {
+	color:#ffffff;
+	font-size:14px;
+}
+.module_left a:hover, .module_left a:visited, .module_left a:link {
+	color:#7bb216;
+	font-size:14px;
+}
+#active_menu_left a:link, #active_menu_left a:visited, #active_menu_left a:hover{
+	color:#365b96;
+}
+#active_menu_left {
+	background:url('../images/go2.png') 100% 50% no-repeat;
+	border:0px solid;
+}
+.noaktive {
+	background:url('../images/go.png') 100% 50% no-repeat;
+	border:0px solid;
+}
+
+.button {
+	width:90px;
+	height:27px;
+	color:#FFFFFF;
+	border:0px solid;
+	background:url('../images/buttun.png') 0 0 no-repeat;
+}
+#search_searchword {
+	width:100%;
+	height:15px;
+}
+
+p {
+	margin:0;
+}
+
+/* Шапка и верхнее меню */
+#gum {
+	background:url('../images/gum.jpg') 0 100% repeat-x;
+}
+.toptabletop {
+	width:100%;
+	height:461px;
+	margin:0px auto;
+}
+.toptable {
+	width:100%;
+	margin:0px auto;
+}
+#top {
+	width:236px;
+	height:125px;
+	background:url('../images/top.jpg') 100% 100% no-repeat;
+}
+#top2 {
+	width:150px;
+	background:url('../images/numbers.jpg') 0 100% no-repeat;
+}
+#nav{
+	width:305px;
+}
+#navp{
+	margin-right:40px;
+	margin-top:45px;
+}
+#skylogo {
+	width:278px;
+	height:100%;
+	background:url('../images/7skylogo.jpg') 0 0 no-repeat;
+}
+#skylogo2 {
+	background:url('../images/7skylogo2.jpg') 0 100% no-repeat;
+}
+#logoright {
+	background:url('../images/logoright.jpg') 100% 100% no-repeat;
+}
+#logorightbt {
+	height:226px;
+	background:url('../images/logorightbt.jpg') 100% 0 no-repeat;
+}
+#logocenter {
+	height:226px;
+	background:url('../images/logocenter.gif') 0 0 no-repeat;
+}
+#topmenu {
+	width:590px;
+	height:66px;
+	background:url('../images/topmenu.jpg') 0 0 no-repeat;
+	position:relative;
+	left: 32px;
+	bottom: 22px;
+}
+#toptablemenu {
+	width:70%;
+	height:57px;
+	padding-top:7px;
+	padding-left:35px;
+	text-align:left;
+}
+
+/* Левое меню */
+#leftmenu_tl {
+	width:33px;
+	height:24px;
+	background:url('../images/leftmenu_tl.jpg') 0 0 no-repeat;
+}
+#leftmenu_top {
+	height:24px;
+	background:url('../images/leftmenu_top.jpg') 0 0 repeat-x;
+}
+#leftmenu_tr {
+	width:33px;
+	height:24px;
+	background:url('../images/leftmenu_tr.jpg') 0 0 no-repeat;
+}
+#leftmenu_left {
+	width:33px;
+	background:url('../images/leftmenu_left.jpg') 0 0 repeat-y;
+}
+#leftmenu_right {
+	width:33px;
+	background:url('../images/leftmenu_right.jpg') 0 0 repeat-y;
+}
+#leftmenu_bl {
+	width:33px;
+	height:24px;
+	background:url('../images/leftmenu_bl.jpg') 0 0 no-repeat;
+}
+#leftmenu_bottom {
+	height:24px;
+	background:url('../images/leftmenu_bottom.jpg') 0 0 repeat-x;
+}
+#leftmenu_br {
+	width:33px;
+	height:24px;
+	background:url('../images/leftmenu_br.jpg') 0 0 no-repeat;
+}
+.menusize {
+	height: 25px;
+	text-align:left;
+}
+#tableleft {
+	width:90%;
+	margin-left:0px;
+}
+#tableleftmenu {
+	padding-left:6px;
+}
+
+/* Акции и партнеры */
+.moduletable_akc {
+	width:15%;
+	font-size:12px;
+	color:#999999;
+	text-align:left;
+	padding-top:20px;
+}
+.moduletable_akc th {
+	height:55px;
+	color:#ffffff;
+	font-size:9px;
+	text-align:left;
+	background:url('../images/akc.jpg') 0 0 no-repeat;
+}
+.contentheading_akc {
+	font-weight:bold;
+	padding-top:10px;
+}
+.moduletable_part {
+	position:relative;
+	top:20px;
+	text-align:left;
+	border:0px dotted;
+}
+.moduletable_part th {
+	height:55px;
+	color:#ffffff;
+	font-size:9px;
+	text-align:left;
+	background:url('../images/part.jpg') 0 0 no-repeat;
+}
+.readmore {
+	color:#7bb216;
+	font-size:12px;
+	margin-left:60%;
+}
+#mainsl {
+	padding-top:15px;
+}
+
+/* Материалы и футер */
+#main{
+	margin-top: 0px;
+	font-size: 14px;
+	vertical-align: top;
+	text-align: justify;
+	margin-left: 5px;
+	color: #000000;
+}
+.last {
+		text-align:center;
+		padding-top:20px;
+}
+#lastd {
+		margin-top:10px;
+		width:100%;
+		border:0px dotted;
+}
+#lastimg {
+		width:234px;
+		height:33px;
+		border:0px dotted;
+}
+#footer {
+	width:100%;
+	margin:0px auto;
+	height:173px;
+	border-top:1px solid #e6e5ea;
+	margin-top:20px;
+}
+.blog {
+	width: 590px;
+
+	margin-bottom:0px;
+}
+#clock {
+	width:232px;
+	height:173px;
+	background:url('../images/clock.jpg') 0 0 no-repeat;
+}
+#copy {
+	text-align:left;
+	padding-left:45%;
+	font-size:10px;
+	color:#999999;
+}
+#copya {
+	color:#7bb216;
+}

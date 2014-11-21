@@ -1,0 +1,470 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1194px;
+    height: 116px;
+}
+.header {
+    width: 100%;
+    height: 116px;
+    box-shadow: 0 5px 5px gray;
+    background: linear-gradient(to right, #ffffff 0%, #619f32 100%);
+}
+.logo {
+    float: left;
+    width: 329px;
+    height: 116px;
+    background: url(logo7sky.png) no-repeat;
+    background-size: contain;
+}
+.home {
+    float: left;
+    width: 138px;
+    height: 116px;
+}
+.home:after {
+    line-height: 110px;
+    margin-left: 25px;
+    margin-right: auto;
+    content: 'Главная';
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+}
+.home:hover {
+    box-shadow: inset -10px 1px 10px -10px black, inset 10px 1px 10px -10px black;
+    background-color: #619f32;
+}
+.uslugi {
+    float: left;
+    width: 138px;
+    height: 116px;
+}
+.uslugi:after {
+    line-height: 110px;
+    margin-left: 35px;
+    margin-right: auto;
+    content: 'Услуги';
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+}
+.uslugi:hover {
+    box-shadow: inset -10px 1px 10px -10px black, inset 10px 1px 10px -10px black;
+    background-color: #619f32;
+}
+.portfolio {
+    float: left;
+    width: 138px;
+    height: 116px;
+}
+.portfolio:after {
+    padding: 35px 25px 25px 25px;
+    display: table-cell;
+    text-align: center;
+    content: 'Наши работы';
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 20px;
+}
+.portfolio:hover {
+    box-shadow: inset -10px 1px 10px -10px black, inset 10px 1px 10px -10px black;
+    background-color: #619f32;
+}
+.contacts {
+    float: left;
+    width: 138px;
+    height: 116px;
+}
+.contacts:after {
+    line-height: 110px;
+    margin-left: 20px;
+    margin-right: auto;
+    content: 'Контакты';
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+}
+.contacts:hover {
+    box-shadow: inset -10px 1px 10px -10px black, inset 10px 1px 10px -10px black;
+    background-color: #619f32;
+}
+.header_phones {
+    float: left;
+    width: 313px;
+    height: 116px;
+}
+.logo_phone {
+    float: left;
+    margin-top: 32px;
+    margin-left: 20px;
+    margin-right: 3px;
+    width: 48px;
+    height: 48px;
+    background: url(phone_telephone_call.png)center no-repeat;
+    background-size: cover;
+}
+.phone_number1 {
+    margin-top: 32px;
+    margin-left: 70px;
+    width: 180px;
+    height: 24px;
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    text-align: left;
+}
+.phone_number2 {
+    margin-left: 70px;
+    width: 180px;
+    height: 24px;
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    text-align: left;
+}
+.title_phone {
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1039px;
+    height: 68px;
+    box-sizing: border-box;
+}
+.life {
+    float: left;
+    width: 200px;
+    height: 30px;
+    display: inline;
+    color: #1c94ff;
+    font-family: Arial, sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+}
+.life>img {
+    vertical-align: middle;
+    align-content: center;
+    width: 40px;
+    height: 25px;
+}
+.kievstar {
+    float: left;
+    margin-left: 59px;
+    width: 200px;
+    height: 30px;
+    display: inline;
+    color: #1c94ff;
+    font-family: Arial, sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+}
+.kievstar>img {
+    vertical-align: middle;
+    align-content: center;
+    width: 40px;
+    height: 25px;
+}
+.mts {
+    float: left;
+    margin-left: 59px;
+    width: 200px;
+    height: 30px;
+    display: inline;
+    color: #1c94ff;
+    font-family: Arial, sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+}
+.mts>img {
+    vertical-align: middle;
+    margin-right: 5px;
+    width: 40px;
+    height: 25px;
+}
+.mail {
+    float: right;
+    right: 0;
+    width: 200px;
+    height: 30px;
+    display: inline;
+    color: #1c94ff;
+    font-family: Arial, sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+}
+.mail>img {
+    vertical-align: middle;
+    align-content: center;
+    width: 40px;
+    height: 25px;
+}
+.top_slider_wrapper {
+    background-color: #0359a4;
+    width: 1039px;
+    height: 306px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.carousel img {
+    width: 1039px;
+    height: 306px;
+    float: left;
+}
+.prev,
+.next {
+    text-indent: -999px;
+    display: block;
+    overflow: hidden;
+    width: 22px;
+    height: 32px;
+    position: absolute;
+    top: 320px;
+}
+.prev {
+    background: url(1/img/prev.png ) no-repeat;
+    left: 100px;
+}
+.prev:hover {
+    background: url(1/img/prev_g.png ) no-repeat;
+    left: 101px;
+}
+.next {
+    background: url(1/img/next.png ) no-repeat;
+    right: 100px;
+}
+.next:hover {
+    background: url(1/img/next_g.png ) no-repeat;
+    right: 101px;
+    transition: 0, 1s ease-in-out;
+}
+.pager {
+    text-align: center;
+    margin-top: 10px;
+}
+.pager a {
+    background: transparent url(1/img/bullets.png) no-repeat;
+    text-decoration: none;
+    text-indent: -999px;
+    display: inline-block;
+    overflow: hidden;
+    width: 17px;
+    height: 17px;
+    margin: 0 5px 0 0;
+}
+.pager a.selected {
+    background: transparent url(1/img/bullets_g.png) no-repeat;
+    text-decoration: underline;
+}
+.menu:before {
+    position: absolute;
+    margin-top: -26px;
+    margin-left: 450px;
+    content: 'НАШИ УСЛУГИ';
+    color: #0359a4;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 22px;
+}
+.menu {
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1039px;
+    height: 548px;
+}
+.menu>div:hover {
+    box-shadow: 0px 0px 5px 1px #0359a4;
+}
+.menu_item_top {
+    float: left;
+    width: 230px;
+    height: 250px;
+    border: 4px solid #5e9c37;
+    border-radius: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-right: 39px;
+}
+.adv_out {
+    margin-top: 35px;
+    width: 215px;
+    height: 155px;
+    background: url(1/img/adv_out.png) center no-repeat;
+    background-size: contain;
+    border: 0px;
+}
+.adv_interior {
+    margin-top: 35px;
+    width: 215px;
+    height: 155px;
+    background: url(1/img/adv_interior.png) center no-repeat;
+    background-size: contain;
+}
+.montage {
+    margin-top: 12px;
+    width: 215px;
+    height: 155px;
+    background: url(1/img/montage.png) center no-repeat;
+    background-size: contain;
+}
+.adv_transporte {
+    margin-top: 35px;
+    width: 215px;
+    height: 155px;
+    background: url(1/img/adv_transporte.png) center no-repeat;
+    background-size: contain;
+}
+.design_proekt {
+    margin-top: 35px;
+    width: 215px;
+    height: 155px;
+    background: url(1/img/design_proekt.png) center no-repeat;
+    background-size: contain;
+}
+.foto {
+    margin-top: 58px;
+    width: 215px;
+    height: 155px;
+    background: url(1/img/foto.png) center no-repeat;
+    background-size: contain;
+}
+.polygraphy {
+    margin-top: 58px;
+    width: 215px;
+    height: 155px;
+    background: url(1/img/polygraphy.png) center no-repeat;
+    background-size: contain;
+}
+.promo {
+    margin-top: 58px;
+    width: 215px;
+    height: 155px;
+    background: url(1/img/promo.png) center no-repeat;
+    background-size: contain;
+}
+.menu_item_top_right {
+    float: right;
+    margin-right: 0;
+    width: 230px;
+    height: 250px;
+    border: 4px solid #5e9c37;
+    border-radius: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.menu_item_bottom {
+    float: left;
+    margin-top: 48px;
+    width: 230px;
+    height: 250px;
+    border: 4px solid #5e9c37;
+    border-radius: 10px;
+    display: inline-block;
+    margin-right: 39px;
+    box-sizing: border-box;
+}
+.menu_item_bottom:last-child {
+    float: right;
+    margin-right: 0;
+}
+.menu_item_header {
+    float: left;
+    margin-top: 0px;
+    width: 225px;
+    height: 77px;
+    background-color: #5e9c37;
+    color: white;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 22px;
+}
+.calc {
+    padding: 0;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1039px;
+    height: 122px;
+}
+.calc_block1 {
+    float: left;
+    width: 320px;
+    height: 122px;
+    display: inline-block;
+    background-color: #0359a4;
+    border-radius: 10px;
+}
+.calc_block2 {
+    width: 320px;
+    height: 122px;
+    display: inline-block;
+    margin-left: 40px;
+    background-color: #0359a4;
+    border-radius: 10px;
+}
+.calc_block3 {
+    float: right;
+    width: 320px;
+    height: 122px;
+    display: inline-block;
+    background-color: #0359a4;
+    border-radius: 10px;
+}
+.bottom_slider:before {
+    content: 'НАМ ДОВЕРЯЮТ';
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 430px;
+    color: #0359a4;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 22px;
+}
+.bottom_slider {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1039px;
+    height: 121px;
+}
+#bottom_prev {
+    widows: 22px;
+    height: 32px;
+    background: url(1/img/prev.png ) no-repeat;
+    position: absolute;
+    margin-top: 1350px;
+    background-color: red;
+    z-index: 6;
+}
+.footer {
+    margin-top: 59px;
+    width: 100%;
+    height: 362px;
+    background-color: #619f32;
+    box-shadow: 0 -5px 5px gray;
+}
+footer {
+    margin-top: 59px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1194px;
+    height: 362px;
+    background-color: #619f32;
+}
